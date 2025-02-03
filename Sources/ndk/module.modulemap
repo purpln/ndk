@@ -1,0 +1,26 @@
+module ndk {
+    module asset_manager {
+        header "headers/asset_manager.h"
+        export *
+    }
+    module configuration {
+        header "headers/configuration.h"
+        export *
+    }
+    module log {
+        header "headers/log.h"
+        export *
+    }
+    module looper {
+        header "headers/looper.h"
+        export *
+    }
+    module native_activity {
+        header "headers/native_activity.h"
+        export *
+    }
+    module native_window {
+        header "headers/native_window.h"
+        export *
+    }
+}
