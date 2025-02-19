@@ -23,4 +23,5 @@ module ndk {
         header "headers/native_window.h"
         export *
     }
+    link "Android"
 }
