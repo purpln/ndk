@@ -9,6 +9,11 @@ module ndk {
         export *
     }
     
+    module choreographer {
+        header "headers/choreographer.h"
+        export *
+    }
+    
     module configuration {
         header "headers/configuration.h"
         export *
