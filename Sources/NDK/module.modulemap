@@ -4,11 +4,6 @@ module NDK {
         export *
     }
     
-    module Battery {
-        header "headers/battery.h"
-        export *
-    }
-    
     module Binder {
         header "headers/binder.h"
         export *
@@ -34,8 +29,8 @@ module NDK {
         export *
     }
     
-    module Display {
-        header "headers/display.h"
+    module Library {
+        header "headers/dlext.h"
         export *
     }
     
@@ -93,6 +88,11 @@ module NDK {
         export *
     }
     
+    module Multinetwork {
+        header "headers/multinetwork.h"
+        export *
+    }
+    
     module NativeActivity {
         header "headers/native_activity.h"
         export *
@@ -108,11 +108,6 @@ module NDK {
         export *
     }
     
-    module Properties {
-        header "headers/properties.h"
-        export *
-    }
-    
     module Rect {
         header "headers/rect.h"
         export *
@@ -120,6 +115,16 @@ module NDK {
     
     module Sensor {
         header "headers/sensor.h"
+        export *
+    }
+    
+    module AbortMessage {
+        header "headers/set_abort_message.h"
+        export *
+    }
+    
+    module SharedMemory {
+        header "headers/sharedmem.h"
         export *
     }
     
@@ -145,6 +150,11 @@ module NDK {
     
     module Trace {
         header "headers/trace.h"
+        export *
+    }
+    
+    module Window {
+        header "headers/window.h"
         export *
     }
     
