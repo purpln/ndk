@@ -1,0 +1,92 @@
+module NDK {
+    module AssetManager {
+        header "headers/asset_manager.h"
+        export *
+    }
+    
+    module Choreographer {
+        header "headers/choreographer.h"
+        export *
+    }
+    
+    module Configuration {
+        header "headers/configuration.h"
+        export *
+    }
+    
+    module EGL {
+        header "headers/egl.h"
+        export *
+        link "EGL"
+    }
+    
+    module Font {
+        header "headers/font.h"
+        export *
+    }
+    
+    module GLES {
+        header "headers/gles.h"
+        export *
+        link "GLESv1_CM"
+    }
+    
+    module GLES2 {
+        header "headers/gles2.h"
+        export *
+        link "GLESv2"
+    }
+    
+    module GLES3 {
+        header "headers/gles3.h"
+        export *
+        link "GLESv3"
+    }
+    
+    module Hardware {
+        header "headers/hardware.h"
+        export *
+    }
+    
+    module Input {
+        header "headers/input.h"
+        export *
+    }
+    
+    module JNI {
+        header "headers/jni.h"
+        export *
+    }
+    
+    module Log {
+        header "headers/log.h"
+        export *
+    }
+    
+    module Looper {
+        header "headers/looper.h"
+        export *
+    }
+    
+    module NativeActivity {
+        header "headers/native_activity.h"
+        export *
+    }
+    
+    module NativeWindow {
+        header "headers/native_window.h"
+        export *
+    }
+    
+    module StorageManager {
+        header "headers/storage_manager.h"
+        export *
+    }
+    
+    module Trace {
+        header "headers/trace.h"
+        export *
+    }
+    
+    link "android"
+}

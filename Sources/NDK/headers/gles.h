@@ -1,6 +1,5 @@
 #pragma once
 
-#include <GLES/egl.h>
 #include <GLES/gl.h>
 #include <GLES/glext.h>
 #include <GLES/glplatform.h>

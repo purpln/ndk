@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(name: "NDK", products: [
-    .library(name: "NDK", targets: ["ndk"]),
+    .library(name: "NDK", targets: ["NDK"]),
 ], targets: [
-    .systemLibrary(name: "ndk"),
+    .systemLibrary(name: "NDK"),
 ])
