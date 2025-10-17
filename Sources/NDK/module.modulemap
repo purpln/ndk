@@ -4,6 +4,21 @@ module NDK {
         export *
     }
     
+    module Battery {
+        header "headers/battery.h"
+        export *
+    }
+    
+    module Binder {
+        header "headers/binder.h"
+        export *
+    }
+    
+    module Bitmap {
+        header "headers/bitmap.h"
+        export *
+    }
+    
     module Choreographer {
         header "headers/choreographer.h"
         export *
@@ -11,6 +26,16 @@ module NDK {
     
     module Configuration {
         header "headers/configuration.h"
+        export *
+    }
+    
+    module DataSpace {
+        header "headers/data_space.h"
+        export *
+    }
+    
+    module Display {
+        header "headers/display.h"
         export *
     }
     
@@ -78,8 +103,43 @@ module NDK {
         export *
     }
     
+    module Obb {
+        header "headers/obb.h"
+        export *
+    }
+    
+    module Properties {
+        header "headers/properties.h"
+        export *
+    }
+    
+    module Rect {
+        header "headers/rect.h"
+        export *
+    }
+    
+    module Sensor {
+        header "headers/sensor.h"
+        export *
+    }
+    
     module StorageManager {
         header "headers/storage_manager.h"
+        export *
+    }
+    
+    module Surface {
+        header "headers/surface.h"
+        export *
+    }
+    
+    module Sync {
+        header "headers/sync.h"
+        export *
+    }
+    
+    module Thermal {
+        header "headers/thermal.h"
         export *
     }
     
