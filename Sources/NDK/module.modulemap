@@ -43,8 +43,8 @@ module NDK {
         link "GLESv3"
     }
     
-    module Hardware {
-        header "headers/hardware.h"
+    module HardwareBuffer {
+        header "headers/hardware_buffer.h"
         export *
     }
     
