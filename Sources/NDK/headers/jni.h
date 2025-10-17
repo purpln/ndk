@@ -1,3 +1,4 @@
 #pragma once
 
-#include <android/jni.h>
+#include <jni.h>
+#include <jni_md.h>
