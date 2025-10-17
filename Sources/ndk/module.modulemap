@@ -44,6 +44,11 @@ module ndk {
         export *
     }
     
+    module font {
+        header "headers/font.h"
+        export *
+    }
+    
     module EGL {
         header "headers/egl.h"
         export *
