@@ -1,161 +1,161 @@
 module NDK {
     module AssetManager {
-        header "headers/asset_manager.h"
+        header "android/asset_manager.h"
         export *
     }
     
     module Binder {
-        header "headers/binder.h"
+        header "android/binder.h"
         export *
     }
     
     module Bitmap {
-        header "headers/bitmap.h"
+        header "android/bitmap.h"
         export *
     }
     
     module Choreographer {
-        header "headers/choreographer.h"
+        header "android/choreographer.h"
         export *
     }
     
     module Configuration {
-        header "headers/configuration.h"
+        header "android/configuration.h"
         export *
     }
     
     module DataSpace {
-        header "headers/data_space.h"
+        header "android/data_space.h"
         export *
     }
     
     module Library {
-        header "headers/dlext.h"
+        header "android/dlext.h"
+        export *
+    }
+    
+    module Font {
+        header "android/font.h"
+        export *
+    }
+    
+    module HardwareBuffer {
+        header "android/hardware_buffer.h"
+        export *
+    }
+    
+    module Input {
+        header "android/input.h"
+        export *
+    }
+    
+    module JNI {
+        header "android/jni.h"
+        export *
+    }
+    
+    module Log {
+        header "android/log.h"
+        export *
+    }
+    
+    module Looper {
+        header "android/looper.h"
+        export *
+    }
+    
+    module Multinetwork {
+        header "android/multinetwork.h"
+        export *
+    }
+    
+    module NativeActivity {
+        header "android/native_activity.h"
+        export *
+    }
+    
+    module NativeWindow {
+        header "android/native_window.h"
+        export *
+    }
+    
+    module Obb {
+        header "android/obb.h"
+        export *
+    }
+    
+    module Rect {
+        header "android/rect.h"
+        export *
+    }
+    
+    module Sensor {
+        header "android/sensor.h"
+        export *
+    }
+    
+    module AbortMessage {
+        header "android/set_abort_message.h"
+        export *
+    }
+    
+    module SharedMemory {
+        header "android/sharedmem.h"
+        export *
+    }
+    
+    module StorageManager {
+        header "android/storage_manager.h"
+        export *
+    }
+    
+    module Surface {
+        header "android/surface.h"
+        export *
+    }
+    
+    module Sync {
+        header "android/sync.h"
+        export *
+    }
+    
+    module Thermal {
+        header "android/thermal.h"
+        export *
+    }
+    
+    module Trace {
+        header "android/trace.h"
+        export *
+    }
+    
+    module Window {
+        header "android/window.h"
         export *
     }
     
     module EGL {
-        header "headers/egl.h"
+        header "graphics/egl.h"
         export *
         link "EGL"
     }
     
-    module Font {
-        header "headers/font.h"
-        export *
-    }
-    
     module GLES {
-        header "headers/gles.h"
+        header "graphics/gles.h"
         export *
         link "GLESv1_CM"
     }
     
     module GLES2 {
-        header "headers/gles2.h"
+        header "graphics/gles2.h"
         export *
         link "GLESv2"
     }
     
     module GLES3 {
-        header "headers/gles3.h"
+        header "graphics/gles3.h"
         export *
         link "GLESv3"
-    }
-    
-    module HardwareBuffer {
-        header "headers/hardware_buffer.h"
-        export *
-    }
-    
-    module Input {
-        header "headers/input.h"
-        export *
-    }
-    
-    module JNI {
-        header "headers/jni.h"
-        export *
-    }
-    
-    module Log {
-        header "headers/log.h"
-        export *
-    }
-    
-    module Looper {
-        header "headers/looper.h"
-        export *
-    }
-    
-    module Multinetwork {
-        header "headers/multinetwork.h"
-        export *
-    }
-    
-    module NativeActivity {
-        header "headers/native_activity.h"
-        export *
-    }
-    
-    module NativeWindow {
-        header "headers/native_window.h"
-        export *
-    }
-    
-    module Obb {
-        header "headers/obb.h"
-        export *
-    }
-    
-    module Rect {
-        header "headers/rect.h"
-        export *
-    }
-    
-    module Sensor {
-        header "headers/sensor.h"
-        export *
-    }
-    
-    module AbortMessage {
-        header "headers/set_abort_message.h"
-        export *
-    }
-    
-    module SharedMemory {
-        header "headers/sharedmem.h"
-        export *
-    }
-    
-    module StorageManager {
-        header "headers/storage_manager.h"
-        export *
-    }
-    
-    module Surface {
-        header "headers/surface.h"
-        export *
-    }
-    
-    module Sync {
-        header "headers/sync.h"
-        export *
-    }
-    
-    module Thermal {
-        header "headers/thermal.h"
-        export *
-    }
-    
-    module Trace {
-        header "headers/trace.h"
-        export *
-    }
-    
-    module Window {
-        header "headers/window.h"
-        export *
     }
     
     link "android"
